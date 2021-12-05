@@ -1,6 +1,8 @@
 import React from 'react'
 import './sidebar.css'
 import { BlurLinearOutlined, BubbleChartOutlined, MonetizationOnOutlined } from '@mui/icons-material';
+import { Link } from 'react-router-dom'
+
 export default function SideBar() {
     return (
         <div className="sidebar">
@@ -11,7 +13,9 @@ export default function SideBar() {
                     </h3>
                     <ul className="sidebar-list">
                         <li className="sidebar-list-item">
-                            <BlurLinearOutlined /> Home
+                            <Link to="/">
+                                <BlurLinearOutlined /> Home
+                            </Link>
                         </li>
                         <li className="sidebar-list-item active">
                             <BubbleChartOutlined /> Analytics
@@ -27,7 +31,9 @@ export default function SideBar() {
                     </h3>
                     <ul className="sidebar-list">
                         <li className="sidebar-list-item">
-                            <BlurLinearOutlined /> Home
+                            <Link to="/users">
+                                <BlurLinearOutlined /> Users
+                            </Link>
                         </li>
                         <li className="sidebar-list-item">
                             <BubbleChartOutlined /> Analytics
@@ -81,7 +87,7 @@ export default function SideBar() {
                         </li>
                     </ul>
                 </div>
-                
+
             </div>
         </div>
     )

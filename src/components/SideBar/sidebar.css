@@ -29,7 +29,9 @@
     display: flex;
     align-items: center;
     border-radius: 10px;
-
+}
+.sidebar-list-item a{
+    color: #555 ;
 }
 .sidebar-list-item svg{
     margin-right: 5px;

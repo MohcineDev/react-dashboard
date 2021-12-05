@@ -7,3 +7,7 @@
     background-color: wheat;
     flex: 4;
 }
+
+a{
+    text-decoration: none;
+}

@@ -6,7 +6,7 @@ export default function WidgetSmall() {
     return (
         <div className="widget-small">
             <span className="widget-small-title">
-                Nex Join Members
+                Next Join Members
             </span>
             <ul className="widget-small-list">
             <li className="widget-small-item">

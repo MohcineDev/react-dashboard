@@ -9,18 +9,22 @@
     font-size: 22px;
     font-weight: 600;
 }
-.widget-large-table{
+
+.widget-large-table {
     width: 100%;
     border-spacing: 20px;
 }
-.widget-large-th{
+
+.widget-large-th {
     text-align: left;
 }
-.widget-large-user{
+
+.widget-large-user {
     display: flex;
     align-items: center;
     font-weight: 600;
 }
+
 .widget-large-user img {
     width: 40px;
     height: 40px;
@@ -28,10 +32,12 @@
     object-fit: cover;
     margin-right: 10px;
 }
+
 .widget-large-date,
-.widget-large-amount{
-font-weight: 300;
+.widget-large-amount {
+    font-weight: 300;
 }
+
 .widget-large-btn {
     padding: 5px 7px;
     border: none;
